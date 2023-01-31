@@ -24,13 +24,13 @@ import com.gcu.model.OrderModel;
 @Controller
 @RequestMapping("/login/")
 public class LoginController {
-	
+	/*
 	@Autowired
 	private OrdersBusinessServiceInterface service;
 	
 	@Autowired
 	private SecurityBusinessService security;
-	
+	*/
 	@GetMapping("")
 	public String display(Model model) {
 	model.addAttribute("title", "Login Form");
@@ -48,13 +48,19 @@ public class LoginController {
 			model.addAttribute("title", "Login Form");
 			return "login";
 		}
-		service.test();
+		//service.test();
 		/*
 		System.out.println(String.format("Form with Username of %s and Password of %s", 
 				loginModel.getUsername(), loginModel.getPassword()));
 		*/
-		security.authenticate(loginModel.getUsername(), loginModel.getPassword());
-		List<OrderModel> orders = service.getOrders();
+		//security.authenticate(loginModel.getUsername(), loginModel.getPassword());
+		//List<OrderModel> orders = service.getOrders();
+		List<OrderModel> orders = new ArrayList<OrderModel>();
+		orders.add(new OrderModel(0L, "0000000001", "Product 1", 1.00f, 1));
+		orders.add(new OrderModel(1L, "0000000002", "Product 2", 2.00f, 2));
+		orders.add(new OrderModel(2L, "0000000003", "Product 3", 3.00f, 3));
+		orders.add(new OrderModel(3L, "0000000004", "Product 4", 4.00f, 4));
+		orders.add(new OrderModel(4L, "0000000005", "Product 5", 5.00f, 5));
 		model.addAttribute("title", "My Orders");
 		model.addAttribute("orders", orders);
 		return "orders";

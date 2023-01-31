@@ -10,7 +10,8 @@ import com.gcu.model.OrderModel;
 import java.util.*;
 
 @Service
-public class OrdersDataService implements DataAccessInterface<OrderModel> {
+public class OrdersDataService /*implements DataAccessInterface<OrderModel>*/ {
+	/*
 	@SuppressWarnings("unused")
 	@Autowired
 	private DataSource dataSource;
@@ -56,4 +57,5 @@ public class OrdersDataService implements DataAccessInterface<OrderModel> {
 		//
 		return true;
 	}
+	*/
 }
