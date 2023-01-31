@@ -4,8 +4,8 @@ import java.util.*;
 
 import com.gcu.model.OrderModel;
 
-public class AnotherOrdersBusinessService /*implements OrdersBusinessServiceInterface*/ {
-	/*
+public class AnotherOrdersBusinessService implements OrdersBusinessServiceInterface {
+	
 	@Override
 	public void test() {
 		System.out.println("Hello from the AnotherOrdersBusinessService");
@@ -31,5 +31,4 @@ public class AnotherOrdersBusinessService /*implements OrdersBusinessServiceInte
 	public void destroy() {
 		System.out.println("In the AnotherOrdersBusinessService.destroy()");
 	}
-	*/
 }

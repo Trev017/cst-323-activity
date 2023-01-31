@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import com.gcu.model.OrderModel;
 import com.gcu.data.DataAccessInterface;
 
-public class OrdersBusinessService /*implements OrdersBusinessServiceInterface*/ {
-	/*
+public class OrdersBusinessService implements OrdersBusinessServiceInterface {
+	
 	@Autowired
 	DataAccessInterface<OrderModel> service;
 	
@@ -26,5 +26,4 @@ public class OrdersBusinessService /*implements OrdersBusinessServiceInterface*/
 	public void destroy() {
 		System.out.println("In the OrdersBusinessService.destroy()");
 	}
-	*/
 }

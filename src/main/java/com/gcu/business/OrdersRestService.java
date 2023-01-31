@@ -13,7 +13,6 @@ import com.gcu.model.*;
 @RestController
 @RequestMapping("/service")
 public class OrdersRestService {
-	/*
 	@Autowired
 	OrdersBusinessServiceInterface service;
 	
@@ -27,7 +26,6 @@ public class OrdersRestService {
 		list.setOrders(service.getOrders());
 		return list;
 	}
-	*/
 	/*
 	@GetMapping(path="/gettest", produces= {MediaType.APPLICATION_JSON_VALUE})
 	public List<OrderModel> getErrorAsJson() {
