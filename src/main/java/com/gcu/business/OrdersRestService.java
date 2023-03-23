@@ -1,5 +1,6 @@
 package com.gcu.business;
 
+import org.slf4j.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,6 +16,8 @@ import com.gcu.model.*;
 public class OrdersRestService {
 	@Autowired
 	OrdersBusinessServiceInterface service;
+	
+	private static final Logger logger = LoggerFactory.getLogger(OrdersRestService.class);
 	
 	@GetMapping(path="/getjson", produces= {MediaType.APPLICATION_JSON_VALUE})
 	public List<OrderModel> getOrdersAsJson() {
