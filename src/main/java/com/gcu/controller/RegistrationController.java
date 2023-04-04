@@ -1,5 +1,6 @@
 package com.gcu.controller;
 
+import org.slf4j.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -26,6 +27,8 @@ import com.gcu.model.OrderModel;
 public class RegistrationController {
 	@Autowired
 	private OrdersBusinessServiceInterface service;
+	
+	private static final Logger logger = LoggerFactory.getLogger(LoginController.class);
 	
 	@Autowired
 	private SecurityBusinessService security;

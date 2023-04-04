@@ -1,0 +1,51 @@
+2023-03-23 12:07:34,666 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2023-03-23 12:07:34,681 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Cst323ActivityApplication using Java 17.0.4 on DESKTOP-VU32JE5 with PID 26644 (C:\Users\capie\workspace CST-323\cst-323-activity\target\classes started by capie in C:\Users\capie\workspace CST-323\cst-323-activity)
+2023-03-23 12:07:34,682 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.7.4, Spring v5.3.23
+2023-03-23 12:07:34,683 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-03-23 12:07:35,344 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-23 12:07:35,346 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-23 12:07:36,910 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-03-23 12:07:36,949 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 26 ms. Found 0 JDBC repository interfaces.
+2023-03-23 12:07:37,627 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'aopConfiguration' of type [com.gcu.util.AopConfiguration$$EnhancerBySpringCGLIB$$861caac2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-23 12:07:37,666 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'tracer' of type [com.gcu.util.Tracer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-23 12:07:37,668 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'performanceMonitorAdvisor' of type [org.springframework.aop.support.DefaultPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-23 12:07:38,770 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-03-23 12:07:38,796 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-23 12:07:38,797 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-03-23 12:07:38,798 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-03-23 12:07:38,991 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-03-23 12:07:38,992 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3645 ms
+2023-03-23 12:07:41,222 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-03-23 12:07:43,706 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-03-23 12:07:44,871 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-03-23 12:07:44,999 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-23 12:07:45,128 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-23 12:07:45,157 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Cst323ActivityApplication in 11.552 seconds (JVM running for 13.351)
+2023-03-23 12:07:56,682 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-23 12:07:56,683 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-03-23 12:07:56,685 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2023-03-23 12:07:56,793 TRACE com.gcu.util.Tracer [http-nio-8080-exec-1] GCU Method com.gcu.controller.HomeController.display execution started at:Thu Mar 23 12:07:56 MST 2023
+2023-03-23 12:07:56,810 TRACE com.gcu.util.Tracer [http-nio-8080-exec-1] GCU Method com.gcu.controller.HomeController.display execution lasted:18 ms
+2023-03-23 12:07:56,811 TRACE com.gcu.util.Tracer [http-nio-8080-exec-1] GCU Method com.gcu.controller.HomeController.display execution ended at:Thu Mar 23 12:07:56 MST 2023
+2023-03-23 12:07:56,811 WARN com.gcu.util.Tracer [http-nio-8080-exec-1] GCU Method execution longer than 10 ms!
+2023-03-23 12:07:58,772 WARN org.codehaus.groovy.vmplugin.v8.IndyInterface [http-nio-8080-exec-1] Fragment expression "layouts/defaultTemplate" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2023-03-23 12:08:10,083 TRACE com.gcu.util.Tracer [http-nio-8080-exec-6] GCU Method com.gcu.business.OrdersRestService.getOrdersAsJson execution started at:Thu Mar 23 12:08:10 MST 2023
+2023-03-23 12:08:10,095 TRACE com.gcu.util.Tracer [http-nio-8080-exec-6] GCU Method com.gcu.business.OrdersBusinessService.getOrders execution started at:Thu Mar 23 12:08:10 MST 2023
+2023-03-23 12:08:10,103 TRACE com.gcu.util.Tracer [http-nio-8080-exec-6] GCU Method com.gcu.data.OrdersDataService.findAll execution started at:Thu Mar 23 12:08:10 MST 2023
+2023-03-23 12:08:10,374 TRACE com.gcu.util.Tracer [http-nio-8080-exec-6] GCU Method com.gcu.data.OrdersDataService.findAll execution lasted:271 ms
+2023-03-23 12:08:10,375 TRACE com.gcu.util.Tracer [http-nio-8080-exec-6] GCU Method com.gcu.data.OrdersDataService.findAll execution ended at:Thu Mar 23 12:08:10 MST 2023
+2023-03-23 12:08:10,376 WARN com.gcu.util.Tracer [http-nio-8080-exec-6] GCU Method execution longer than 10 ms!
+2023-03-23 12:08:10,377 TRACE com.gcu.util.Tracer [http-nio-8080-exec-6] GCU Method com.gcu.business.OrdersBusinessService.getOrders execution lasted:283 ms
+2023-03-23 12:08:10,377 TRACE com.gcu.util.Tracer [http-nio-8080-exec-6] GCU Method com.gcu.business.OrdersBusinessService.getOrders execution ended at:Thu Mar 23 12:08:10 MST 2023
+2023-03-23 12:08:10,377 WARN com.gcu.util.Tracer [http-nio-8080-exec-6] GCU Method execution longer than 10 ms!
+2023-03-23 12:08:10,378 TRACE com.gcu.util.Tracer [http-nio-8080-exec-6] GCU Method com.gcu.business.OrdersRestService.getOrdersAsJson execution lasted:295 ms
+2023-03-23 12:08:10,378 TRACE com.gcu.util.Tracer [http-nio-8080-exec-6] GCU Method com.gcu.business.OrdersRestService.getOrdersAsJson execution ended at:Thu Mar 23 12:08:10 MST 2023
+2023-03-23 12:08:10,379 WARN com.gcu.util.Tracer [http-nio-8080-exec-6] GCU Method execution longer than 10 ms!
+2023-03-23 12:09:57,142 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(6)-127.0.0.1] Application shutdown requested.
+2023-03-23 12:09:57,174 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(6)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8080"]
+2023-03-23 12:09:57,175 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(6)-127.0.0.1] Stopping service [Tomcat]
+2023-03-23 12:09:57,182 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(6)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-23 12:09:57,192 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(6)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2023-03-23 12:09:57,199 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(6)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8080"]
+2023-03-23 12:09:57,212 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(6)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2023-03-23 12:09:57,550 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(6)-127.0.0.1] HikariPool-1 - Shutdown completed.
